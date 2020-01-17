@@ -62,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    ================================================== -->
     <header id="header" class="row">
 
-        <div class="header-logo">
+        <div class="header-logo" onclick = " logoClicked()">
             <a href="index.html">Dazzle</a>
         </div>
 
@@ -81,7 +81,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a class="header-menu-toggle" href="#"><span>Menu</span></a>
 
     </header>
-
+<script>
+	function logoClicked(){
+	dataLayer.push({
+		'DLvar1':'Logo Clicked',
+		event:'Header',
+		eventCategory : 'Header ',
+		eventAction : 'click ',
+		eventLabel : ' Logo Clicked'
+	})
+	}
+	
+	
+</script>
 
 
     <!-- /header -->
