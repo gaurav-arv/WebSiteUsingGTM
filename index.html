@@ -34,22 +34,15 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script>
-        // Analytics JS (by Google)
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-        ga('create', "UA-89495449-1", {
-            siteSpeedSampleRate: 50,
-            cookieDomain: 'auto'
-        });
-        ga('send', 'pageview', window.location.href.split(/[?#]/)[0]);
+   <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7CZCB3');</script>
+<!-- End Google Tag Manager -->   
+	    
+	    
     </script>
 </head>
 
@@ -65,11 +58,11 @@
 
         <nav id="header-nav-wrap">
             <ul class="header-main-nav">
-                <li class="current"><a class="smoothscroll" href="#home" title="home" id="id1" onclick="getName(this.id)">Home</a></li>
-                <li><a class="smoothscroll" href="#about" title="about" id="id2" onclick="getName(this.id)">About</a></li>
-                <li><a class="smoothscroll" href="#pricing" title="pricing" id="id3" onclick="getName(this.id)">Pricing</a></li>
-                <li><a class="smoothscroll" href="#testimonials" title="testimonials" id="id4" onclick="getName(this.id)">Testimonials</a></li>
-                <li><a class="smoothscroll" href="#download" title="download" id="id5" onclick="getName(this.id)">Download</a></li>
+                <li class="current"><a class="smoothscroll" href="#home" title="home" >Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about" >About</a></li>
+                <li><a class="smoothscroll" href="#pricing" title="pricing" >Pricing</a></li>
+                <li><a class="smoothscroll" href="#testimonials" title="testimonials" >Testimonials</a></li>
+                <li><a class="smoothscroll" href="#download" title="download" >Download</a></li>
             </ul>
 
             <a href="#" title="sign-up" class="button button-primary cta">Sign Up</a>
@@ -78,19 +71,7 @@
         <a class="header-menu-toggle" href="#"><span>Menu</span></a>
 
     </header>
-<script>
-        function getName(id){
-            let labelget = document.getElementById(id).innerText;
-            console.log(labelget)
-            dataLayer.push({
-                'event':'Navigation',
-                'eventCategory':'Navigation Menu',
-                'eventAction':'click',
-                'eventLabel': 'Home Page'
 
-            })
-        }
-</script>
 
 
     <!-- /header -->
