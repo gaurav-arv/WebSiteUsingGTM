@@ -6,13 +6,14 @@
 <!--<![endif]-->
 
 <head>
-		<!-- Google Tag Manager -->
+    <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K7CZCB3');</script>
-<!-- End Google Tag Manager -->
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K7CZCB3');</script>
+    <!-- End Google Tag Manager -->
+
     <!--- basic page needs
    ================================================== -->
     <meta charset="utf-8">
@@ -42,45 +43,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body id="top">
-	<!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7CZCB3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- header 
    ================================================== -->
     <header id="header" class="row">
 
         <div class="header-logo">
-            <a class="headerLogo" href="index.html">Dazzle</a>
+            <a class="logo1" href="index.html">Dazzle</a>
         </div>
 
         <nav id="header-nav-wrap">
             <ul class="header-main-nav">
-                <li class="current"><a class="smoothscroll" href="#home" title="home" onclick = " logoClicked()">Home</a></li>
-                <li><a class="smoothscroll" href="#about" title="about" onclick = " logoClicked()">About</a></li>
-                <li><a class="smoothscroll" href="#pricing" title="pricing" >Pricing</a></li>
-                <li><a class="smoothscroll" href="#testimonials" title="testimonials" >Testimonials</a></li>
-                <li><a class="smoothscroll" href="#download" title="download" >Download</a></li>
+                <li class="current"><a class="smoothscroll" href="#home" title="home" id="id1" >Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about" id="id2">About</a></li>
+                <li><a class="smoothscroll" href="#pricing" title="pricing" id="id3" >Pricing</a></li>
+                <li><a class="smoothscroll" href="#testimonials" title="testimonials" id="id4">Testimonials</a></li>
+                <li><a class="smoothscroll" href="#download" title="download" id="id5" >Download</a></li>
             </ul>
 
-            <a href="#" title="sign-up" class="button button-primary cta">Sign Up</a>
+            <a href="#" title="sign-up" id="v1button"class="button button-primary cta">Sign Up</a>
         </nav>
 
         <a class="header-menu-toggle" href="#"><span>Menu</span></a>
 
     </header>
 <script>
-	function logoClicked(){
-	dataLayer.push({
-		'DLvar1':'Logo Clicked',
-		event:'Header',
-		eventCategory : 'Header ',
-		eventAction : 'click ',
-		eventLabel : ' Logo Clicked'
-	})
-	}
-	
-	
+       
 </script>
 
 
@@ -561,9 +552,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <form id="mc-form" class="group" novalidate="true">
 
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                            <input type="email" value="" name="EMAIL" class="email1" id="mc-email" placeholder="Email Address" required="">
 
-                            <input type="submit" name="subscribe" value="Send">
+                            <input type="submit" name="subscribe" class="liame" value="Send">
 
                             <label for="mc-email" class="subscribe-message"></label>
 
