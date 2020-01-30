@@ -12,15 +12,7 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K7CZCB3');
-var _customTask = function() {
-  // Set Client ID to Custom Dimension 199
-  return function(customTaskModel) {
-    customTaskModel.set('dimension3', customTaskModel.get('clientId'));
-  };
-};	
-ga('create','UA-156364156-2');
-ga('set', 'customTask', _customTask());
-ga('send', 'session');
+
 </script>
     <!-- End Google Tag Manager -->
 
